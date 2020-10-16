@@ -28,7 +28,4 @@ class Particula:
             'Distancia:  ' + str(self.__distancia) + '\n'
             )
 
-l01 = Particula(id=2306, origen_x=34, origen_y=47, 
-                destino_x=90, destino_y=23, velocidad=80, red=90, 
-                green=2, blue=34, distancia=5.0)
-print(l01)
+
