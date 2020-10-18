@@ -14,13 +14,8 @@ class Administrador:
         for particula in self.__particulas:
             print(particula)
 
-l01 = Particula(id=2306, origen_x=34, origen_y=47, 
-                destino_x=90, destino_y=23, velocidad=80, red=90, 
-                green=2, blue=34, distancia=5.0)
 
-l02 = Particula("0623", "1", "1")
-
-administrador = Administrador()
-administrador.agregar_final(l01)
-administrador.agregar_inicio(l02)
-administrador.mostar()
+l01 = Particula(id="2306", origen_x="34", origen_y="47", destino_x="90", destino_y="23", velocidad="80", red="90",  green="2", blue="34", distancia="")
+Administrador = Administrador()
+Administrador.agregar_inicio(l01)
+Administrador.mostar()
