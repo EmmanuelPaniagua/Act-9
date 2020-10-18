@@ -26,4 +26,3 @@ class Particula:
             'Blue:  ' + str(self.__blue) + '\n' +
             'Distancia:  ' + str(self.__distancia) + '\n'
         )
-
